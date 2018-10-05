@@ -9,8 +9,8 @@ And a lib\ directory that containts
 httplib2
 oath2client
 
-GAE must receive from you the 3 files and the lib\ in order to work.
-gcloud app deploy will take care of it, and the appengine_config.py handle runtime.
+GAE must receive from you the 3 files and the lib\ contents in order to work.
+gcloud app deploy will take care of it, and the appengine_config.py handles runtime.
 
 Why it's not working:
 Is the Firebase RTDB node referenced here still exists?
